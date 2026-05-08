@@ -22,7 +22,10 @@ public class Main {
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < N; j++) {
             grid[i][j] = (int) (Math.random() * 101);
+            System.out.print(grid[i][j] + " ");
         }
+
+        System.out.println();
     }
 
     // go through diagonals
