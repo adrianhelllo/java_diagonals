@@ -31,8 +31,8 @@ public class Main {
     // go through diagonals
     for (int i = 0; i < N; i++) {
         for (int j = 0; j < (N-i-1); j++) {
-            sumB += grid[i+1][j];
-            sumT += grid[i][j+1];
+            sumB += grid[i+1+j][i];
+            sumT += grid[i][i+1+j];
         }
     }
 
